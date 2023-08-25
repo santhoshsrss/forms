@@ -1,10 +1,13 @@
 import React from 'react';
-import LoginForm from '../components/LoginForm.js';
+import Pagination from './page';
+// import LoginForm from './components/login';
 function App() {
   return (
     <div className="App">
-      <h1>Form Validation</h1>
-      <LoginForm />
+      
+      {/* <LoginForm /> */}
+      <Pagination/>
+
     </div>
   );
 }

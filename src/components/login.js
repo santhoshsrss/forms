@@ -29,6 +29,7 @@ const LoginForm = () => {
   return (
     <form onSubmit={handleSubmit} autoComplete="on">
       <div className="form">
+      <h1>Form Validation</h1>
         <label>User Name:</label>
         <input
           id="name"
