@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import { basicScheme } from "../schema";
 
-const onSubmit = async (values, actions) => {
+const onSubmit = (values, actions) => {
   console.log(values);
   console.log(actions);
   actions.resetForm();
