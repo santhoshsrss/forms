@@ -1,13 +1,13 @@
 import React from 'react';
-import Pagination from './page';
+import SearchItem from './components/search';
 // import LoginForm from './components/login';
 function App() {
   return (
     <div className="App">
       
       {/* <LoginForm /> */}
-      <Pagination/>
-
+      <SearchItem />
+      
     </div>
   );
 }
